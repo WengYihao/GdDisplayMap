@@ -4,21 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.gddisplaymap.MainActivity">
-
-    <TextView
-        android:id="@+id/text_map"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="定位中......"
-        android:gravity="center"
-        android:paddingTop="5dp"
-        android:textColor="@color/colorAccent"
-        android:textSize="22sp"
-        />
+    tools:context="com.gddisplaymap.com.ui.MainActivity">
     <com.amap.api.maps.MapView
         android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="516dp"
+        android:layout_height="match_parent"
         />
 </LinearLayout>

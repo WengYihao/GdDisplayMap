@@ -27,6 +27,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     compile files('libs/AMap_Location_V3.0.0_20160922.jar')
-    compile files('libs/AMap_Search_V3.5.0_20160927.jar')
     compile files('libs/AMap_3DMap_V4.1.1_20161019.jar')
 }
